@@ -96,5 +96,3 @@ out
 
 # allow list
 !favicon.ico
-!src/images/logo192.png
-!src/images/logo512.png
