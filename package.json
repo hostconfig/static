@@ -11,10 +11,6 @@
     "url": "git+https://github.com/hostconfig/static.git"
   },
   "packageManager": "yarn@1.22.19",
-  "engines": {
-    "node": "~18.18.0"
-  },
-  "engineStrict" : false,
   "scripts": {
     "build": "tsc -p ./tsconfig.json && tsc-alias && ts-add-js-extension --dir=dist",
     "postbuild": "cp -rv ./src/www ./dist/www",
